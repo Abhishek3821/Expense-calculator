@@ -1,0 +1,30 @@
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-box{
+  background-color:rgb(156, 144, 144);
+  height: 50vh;
+  width:30vw ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+.input-box h1{
+  margin-left:5vw;
+}
+.input-box input{
+  margin-left: 1vw;
+  margin-bottom: 10px;
+}
+.input-box button{
+  display:flex ;
+  margin-left: 10vw;
+}
+.expense-list li{
+  display: flex;
+  justify-content: space-evenly;
+}
